@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="book py-5 px-5 fw-bold border-bottom border-dark">
+            <h3>
+                Bookmarker
+            </h3>
+        </div>
+        <div class="column text-center align-content-center py-5 my-3">
+            <h2 class="py-2">Bookmark your favorite sites</h2>
+            <p class="py-3 fw-bold">Site Name</p>
+            <input oninput="validatesiteName()" type="text" id="siteName" name="SiteName" placeholder="BookmarkName" />
+            <p class="text-danger d-none" id="wrongName">Name is required</p>
+            <p class="py-3 fw-bold">Site URL</p>
+            <input  oninput="validatesiteName()" type="text" id="siteURL" name="SiteURL" placeholder="Website" />
+            <p class="text-danger d-none" id="wrongName">Url Field is required</p>
+            <div class="my-4">
+                <button class="btn btn-primary " onclick="Submit()">
+                    Submit
+                </button>
+            </div>
+        </div>
+
+        
+        <div class="containe webwell" id="tBody">
+        
+            
+        </div>
+        <div>
+            <footer class="container border-top border-dark py-3">
+                <div>
+                    <p class="fw-bold ">© 2019 Bookmarker Inc.</p>
+                </div>
+            </footer>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <script src="./js/index.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>

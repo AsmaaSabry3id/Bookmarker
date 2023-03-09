@@ -1,0 +1,21 @@
+.book{
+    font-family: arial;
+    color: rgb(170, 170, 170);
+}
+.column{
+    background-color: rgb(238, 238, 238);
+}
+input{
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    margin: auto;
+    font-size: 15px;
+    max-height: 2em;
+}
+.webwell {
+    background-image: linear-gradient(rgb(238, 238, 238), rgb(255, 255, 255));
+    margin: 10px 0px;
+    padding: 20px;
+}
